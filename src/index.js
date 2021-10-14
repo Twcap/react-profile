@@ -5,6 +5,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import components 
 import Title_banner from './components/title_banner/title_banner.js';
+import Sections from './components/sections/sections.js';
+import Project from './components/projects/project.js';
 
 class App extends React.Component{
   render(){
@@ -12,6 +14,8 @@ class App extends React.Component{
       <div>
         <div className='app'>
           <Title_banner/>
+          <Sections/>
+          <Project/>
         </div>
       </div>
     )

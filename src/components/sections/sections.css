@@ -1,0 +1,12 @@
+.sections{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+div{
+    flex: 1;
+    text-align: center;
+}

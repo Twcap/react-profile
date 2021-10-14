@@ -6,7 +6,7 @@ class Title_banner extends React.Component{
     constructor(){
         super();
         this.state={
-            title_banner: 'Tate Capra'
+            title_banner: 'Full Stack Developer: Tate Capra'
         }
     }
     render(){
